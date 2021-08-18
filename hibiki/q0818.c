@@ -2,9 +2,11 @@
 
 int main(void) {
   int num;
+  int count;
   scanf("%d",&num);
 
-  num % 2 == 0 ? printf("%d\n", 0) : printf("%d\n", 1);
+  count == num % 2;
+  printf("%d\n", count);
   
   return 0;
 }
