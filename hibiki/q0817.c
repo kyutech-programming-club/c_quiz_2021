@@ -4,5 +4,6 @@ int main(void) {
   int i;
   scanf("%d", &i);
 
-  return i + 1;
+  printf("%d\n", i + 1);
+  return 0;
 }

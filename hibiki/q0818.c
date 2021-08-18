@@ -4,9 +4,7 @@ int main(void) {
   int num;
   scanf("%d",&num);
 
-  if (num % 2 == 0) {
-    return 0;
-  } else {
-    return 1;
-  }
+  num % 2 == 0 ? printf("%d\n", 0) : printf("%d\n", 1);
+  
+  return 0;
 }
