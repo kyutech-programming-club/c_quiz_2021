@@ -5,7 +5,7 @@ int main(void) {
 
   scanf("%d%d", &i, &j);
   
-  i % j == 0 ? printf("Y"): printf("N");
+  i % j == 0 ? printf("Y\n"): printf("N\n");
 
   return 0;
 }
