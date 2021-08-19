@@ -6,9 +6,9 @@ int main(void) {
   scanf("%d", &num);
 
   if (num % 2 == 0) {
-    printf("0");
+      printf("0");
   } else {
-    printf("1");
+      printf("1");
   }
   
   return 0;
