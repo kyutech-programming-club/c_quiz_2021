@@ -5,7 +5,7 @@ int main(void) {
   int count;
   scanf("%d",&num);
 
-  count == num % 2;
+  count = num % 2;
   printf("%d\n", count);
   
   return 0;
