@@ -7,7 +7,7 @@ int main(void) {
 
   if (num % 2 == 0) {
     printf("0");
-  } else {
+  } else if (num % 2 == 1) {
     printf("1");
   }
   
