@@ -4,7 +4,7 @@ int main(void) {
   int num;
 
   scanf("%d", &num);
-  printf("%d", num + 1);
+  printf("%d\n", num + 1);
   
   return 0;
 }
