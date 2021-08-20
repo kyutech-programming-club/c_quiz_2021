@@ -3,11 +3,10 @@
 int main(void)
 {
 
-  printf("キーボードで入力（整数）+１");
+  printf("キーボードで入力（整数）+１: ");
 
-  int d, sum;
+  int d;
   scanf("%d", &d);
-  sum = d + 1;
-  printf("%d\n", sum);
+  printf("%d\n", d + 1);
   return 0;
 }
