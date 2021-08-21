@@ -14,7 +14,7 @@
 8. 自身のmasterを更新、自分のブランチを削除
 9. 毎日問題が出るので、3〜8を繰り返す
 
-詳しくはこちらの[リンクから](https://github.com/kyutech-programming-club/c_quiz_2021/blob/master/how_to_start/README.md)
+詳しくは[こちら](https://github.com/kyutech-programming-club/c_quiz_2021/blob/master/how_to_start/README.md)から
 
 ## 問題
 
