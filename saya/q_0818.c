@@ -6,8 +6,8 @@ int main(void){
     int num;
     scanf("%i", &num);
 
-    int count = num % 2;
-    printf("%i\n", count);
+    int remainder = num % 2;
+    printf("%i\n", remainder);
 
     return 0;
 }
