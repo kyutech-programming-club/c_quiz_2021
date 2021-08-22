@@ -10,9 +10,9 @@ int main(void)
   scanf("%d", &num2);
 
   int sum = 0;
-  for (num1; num1 <= num2; num1++)
+  for (int i = num1; i <= num2; i++)
   {
-    sum += num1;
+    sum += i;
   }
   printf("%d\n", sum);
   return 0;
