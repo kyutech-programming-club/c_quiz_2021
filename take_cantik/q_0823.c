@@ -2,16 +2,16 @@
 
 int main(void) {
   int num1, num2, i;
-  int sum = 0;
+  int product = 1;
 
-  printf("整数を二つ入力してください\n");
+  printf("num1とnum2を入力(num1 < num2)\n");
   scanf("%i %i", &num1, &num2);
 
   for (i = num1; i <= num2; i++) {
-    sum += i;
+    product *= i;
   }
 
-  printf("num1〜num2までの総和 = %i\n", sum);
+  printf("%i\n", product);
 
   return 0;
 }
