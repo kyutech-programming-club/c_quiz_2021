@@ -8,13 +8,12 @@ int main(void) {
 
   int count = 0;
   for (int i = 1; i <= num; i++) {
-    int sum = 0;
+    int sum = 1;
 
-    for (int j = 1; j <= i; j++) {
-      if (i % j == 0){
+    for (int j = 1; j < i; j++) {
+      if (i % j == 0) {
         sum++;
       }
-
     }
 
     if (sum == 2) {
