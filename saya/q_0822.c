@@ -8,7 +8,7 @@ int main(void){
     printf("2つ目の整数を入力してください.\n");
     int num2;
     scanf("%i", &num2);
-
+    
     int i;
     int sum = 0;
     for (i = num1; i <= num2; i++) {
