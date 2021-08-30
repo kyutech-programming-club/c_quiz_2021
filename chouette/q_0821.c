@@ -8,11 +8,11 @@ int main(void) {
   double BMI = weight / (height * height);
 
   if (BMI < 18.5) {
-    printf("slim");
+    printf("slim\n");
   } else if (BMI < 25) {
-    printf("nomal");
+    printf("nomal\n");
   } else {
-    printf("fatness");
+    printf("fatness\n");
   }
   
   return 0;
