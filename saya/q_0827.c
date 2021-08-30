@@ -26,7 +26,7 @@ int main(void){
     int count = 0;
     int i;
     for (i = 2; i <= num; i++) {
-        if (is_prime(i) == 1) {
+        if (is_prime(i)) {
             count += 1;
         }
     }
