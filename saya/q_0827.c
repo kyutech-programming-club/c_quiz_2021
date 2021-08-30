@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-int is_prime(int *num) {
-    if (*num == 2) {
+int is_prime(int num) {
+    if (num == 2) {
         return 1;
     }
-    else if (*num % 2 == 0 || *num < 2) {
+    else if (num % 2 == 0 || num < 2) {
         return 0;
     }
     else {
         int i;
-        for (i = 3; i < *num; i += 2) {
-            if (*num % i == 0) {
+        for (i = 3; i < num; i += 2) {
+            if (num % i == 0) {
                 return 0;
             }            
         }
@@ -26,11 +26,8 @@ int main(void){
     int count = 0;
     int i;
     for (i = 2; i <= num; i++) {
-        if (is_prime(&i) == 1) {
+        if (is_prime(i) == 1) {
             count += 1;
-        }
-        else {
-            continue;
         }
     }
 
