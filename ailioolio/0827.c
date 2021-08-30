@@ -3,7 +3,7 @@
 int main(void) {
   printf("整数を入力してください: ");
 
-  int num, count;
+  int num, count, i, j, is_prime;
   scanf("%d", &num);
 
   switch (num) {
@@ -17,17 +17,17 @@ int main(void) {
 
     default:
       count = 1;
-      for (int i = 3; i <= num; i++) {
-        int sum = 2;
+      for (i = 3; i <= num; i++) {
+        is_prime = 1;
 
-        for (int j = 2; j < i; j++) {
+        for (j = 2; j < i; j++) {
           if (i % j == 0) {
-            sum++;
+            is_prime = 0;
             break;
           }
         }
 
-        if (sum == 2) {
+        if (is_prime == 1) {
           count++;
         }
       }
