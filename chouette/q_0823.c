@@ -5,12 +5,12 @@ int main(void) {
 
   scanf("%d %d", &num1, &num2);
   
-  int sum = 1;
-  for (i = num1 ; i <= num2; i++) {
-    sum *= i;
+  int product = 1;
+  for (i = num1; i <= num2; i++) {
+    product *= i;
   }
 
-  printf("%d\n", sum);
+  printf("%d\n", product);
 
   return 0;
 }
