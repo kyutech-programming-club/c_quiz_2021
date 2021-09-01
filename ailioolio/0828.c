@@ -12,26 +12,21 @@ int main(void) {
       qty = 1;
       break;
 
-    case 2:
-      large = 2;
-      qty = 1;
-      break;
+    default:
+      for (int i = 1; i <= num; i++) {
+        count = 1;
+        for (int j = 1; j <= i / 2; j++) {
+          if (i % j == 0) {
+            count++;
+          }
+        }
 
-  default:
-    for (int i = 2; i <= num; i++) {
-      count = 2;
-      for (int j = 2; j <= i / 2; j++) {
-        if (i % j == 0) {
-          count++;
+        if (count >= qty) {
+          qty = count;
+          large = i;
         }
       }
-
-      if (count >= qty) {
-        qty = count;
-        large = i;
-      }
-    }
-    break;
+      break;
   }
 
   printf("約数の個数が最も多いのは%dの%d個です\n", large, qty);
