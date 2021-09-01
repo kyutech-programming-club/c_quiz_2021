@@ -11,7 +11,7 @@ int main(void) {
 
   while (i > 0) {
     reverse = reverse * 10 + i % 10;
-  i = i / 10;
+    i = i / 10;
   }
 
   printf("桁を入れ替えた数は%dです\n", reverse);
