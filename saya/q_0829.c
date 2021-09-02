@@ -13,7 +13,7 @@ int main(void){
 
     printf("逆順にすると");
     for (i = 0; i < 3; i++) {
-        reverse[i] = num[3 - 1 - i];
+        reverse[i] = num[2 - i];
         printf("%i", reverse[i]);
     }
     printf("\n");
