@@ -58,5 +58,5 @@
 <br><br>
 9月4日(土): long rondom(void)を呼び出すととても大きい正の整数がランダムで返ってくる。これを用いて0以上n未満の正の整数をランダムで返す関数int my_rand(int n)を作成してください。ここでmainの最初などで`srandom(getpid());`を実行しないと毎回同じような乱数が返ってくるので注意。また、random(), srandom(), getpid()を使うには`#include <unistd.h>`と`#include <stdlib.h>`を加える必要がある。
 <br><br>
-9月5日(日): 9/5の関数を使って、0.0 <= x < 1.0 の浮動小数点乱数を返す関数 float randf(void)を作成してください。
+9月5日(日): 9/4の関数を使って、0.0 <= x < 1.0 の浮動小数点乱数を返す関数 float randf(void)を作成してください。
 <br><br>
