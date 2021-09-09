@@ -15,9 +15,9 @@ int main(void){
   }
 
   int v_product[3];
-  v_product[0] = x[1] * y[2] - x[2] * y[1];
-  v_product[1] = x[2] * y[0] - x[0] * y[2];
-  v_product[2] = x[0] * y[1] - x[1] * y[0];
+  for (i = 0; i < 3; i++) {
+      v_product[i] = x[(i + 1) % 3] * y[(i + 2) % 3] - x[(i + 2) % 3] * y[(i + 1) % 3];
+  }
 
   printf("外積は>");
   for (i = 0; i < 3; i++) {
