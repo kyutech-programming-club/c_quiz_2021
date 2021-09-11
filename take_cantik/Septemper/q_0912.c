@@ -1,36 +1,13 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-void swap(int List[], int i, int j) {
-  int tmp = List[i];
-  List[i] = List[j];
-  List[j] = tmp;
-}
-
-void sort(int List[1010], int left, int right) {
-  int i = left;
-  int j = right;
-  int pivot = List[(left + right) / 2];
-
-  for (;;) {
-    for (; List[i] < pivot; i++) {
-      ;
-    }
-    for (; List[j] > pivot; j--) {
-      ;
-    }
-
-    if (i >= j) {
-      break;
-    }
-
-    swap(List, i, j);
-
-    if (0 < i - 1) {
-      sort(List, left, i - 1);
-    }
-    if (j + 1 < right) {
-      sort(List, j + 1, right);
-    }
+int cmpnum(const void *a, const void *b) {
+  if (*(int *)a > *(int *)b) {
+    return 1;
+  } else if (*(int *)a < *(int *)b) {
+    return -1;
+  } else {
+    return 0;
   }
 }
 
@@ -43,7 +20,7 @@ int main(void) {
     scanf("%i", &A[i]);
   }
 
-  sort(A, 0, N - 1);
+  qsort(A, N, sizeof(int), cmpnum);
 
   for (int i = 0; i < N; i++) {
     if (A[i] != i + 1) {
