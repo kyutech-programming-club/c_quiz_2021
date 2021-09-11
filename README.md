@@ -136,5 +136,8 @@
 > A_1 A_2 ... A_N
 > ```
 > 
+> **出力**<br>
+> A が (1,2,…,N) の並び替えによって得られるなら `Yes`、そうでないなら `No` と出力せよ。
+>  
 > [ABC205 B問題](https://atcoder.jp/contests/abc205/tasks/abc205_b)より
 <br><br>
