@@ -1,17 +1,13 @@
 #include <stdio.h>
 
 int power(int n, int m){
-    if (m == 0) {
-        return 1;
+    int num = 1;
+    int i;
+    for (i = 0; i <= m; i++) {
+        num *= n;
     }
-    else {
-        int num = 1;
-        int i;
-        for (i = 1; i <= m; i++) {
-            num *= n;
-        }
-        return num;
-    }
+    
+    return num;
 }
 
 int main(void){
