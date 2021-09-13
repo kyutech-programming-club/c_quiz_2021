@@ -3,7 +3,7 @@
 int power(int n, int m){
     int num = 1;
     int i;
-    for (i = 0; i <= m; i++) {
+    for (i = 0; i < m; i++) {
         num *= n;
     }
     
