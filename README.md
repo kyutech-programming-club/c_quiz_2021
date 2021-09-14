@@ -220,5 +220,5 @@
 > **出力**<br>
 > Nが9の倍数ならば`Yes`、そうでないなら`No`を出力せよ。
 > 
-> [ABC176 B問題]（https://atcoder.jp/contests/abc176/tasks/abc176_b） より
+> [ABC176 B問題](https://atcoder.jp/contests/abc176/tasks/abc176_b) より
 <br><br>
