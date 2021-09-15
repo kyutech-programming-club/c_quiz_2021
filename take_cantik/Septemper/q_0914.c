@@ -8,10 +8,10 @@ int main(void) {
   scanf("%s", S);
 
   for (int i = 0; i < N; i++) {
-    if (X != 0 && S[i] == 'x') {
-      X--;
-    } else if (S[i] == 'o') {
+    if (S[i] == 'o') {
       X++;
+    } else if (X) {
+      X--;
     }
   }
 
