@@ -479,3 +479,6 @@
 <br><br>
 
 9月26日(日): [ABC176 C問題](https://atcoder.jp/contests/abc176/tasks/abc176_c)
+<br><br>
+9月27日(月): [ABC168 C問題](https://atcoder.jp/contests/abc168/tasks/abc168_c)
+<br><br>
