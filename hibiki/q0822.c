@@ -1,18 +1,15 @@
 #include <stdio.h>
 
 int main(void) {
-  int num1, num2, sum=0, tmp;
+  int num1, num2, sum=0;
 
   printf("Enter a start number: ");
   scanf("%d", &num1);
   printf("Enter a end number: ");
   scanf("%d", &num2);
 
-  tmp = num1;
-
-  for (int i = 0; i <= num2 - num1; i++) {
-    sum += tmp;
-    tmp++;
+  for (int i = num1; i <= num2 - num1 + 1; i++) {
+    sum += i;
   }
 
   printf("total sum is %d\n", sum);
