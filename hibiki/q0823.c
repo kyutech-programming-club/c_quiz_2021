@@ -12,7 +12,7 @@ int main(void) {
     product *= i;
   }
 
-  printf("total sum is %d\n", product);
+  printf("total product is %d\n", product);
 
   return 0;
 }
