@@ -8,7 +8,7 @@ int main(void) {
   printf("Enter a end number: ");
   scanf("%d", &num2);
 
-  for (int i = num1; i <= num2 - num1 + 1; i++) {
+  for (int i = num1; i <= num2; i++) {
     sum += i;
   }
 
