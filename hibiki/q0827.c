@@ -19,7 +19,7 @@ int main(void) {
     }
   }
 
-  printf("the number of prime is %d", count);
+  printf("the prime number is %d", count);
 
   return 0;
 }
